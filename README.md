@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Portfolio1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React portfolio website built with Create React App. This project showcases a personal landing page with responsive navigation, project highlights, service pricing, contact form, and visual hero sections.
 
-## Available Scripts
+## ✅ Available Scripts
 
-In the project directory, you can run:
+From the project root, run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode at `http://localhost:3000`.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Starts the test runner.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the optimized production bundle into the `build/` folder.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ejects CRA configuration (one-way operation).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Component Highlights
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Some of the main components included in this project:
+- `Navbar` — responsive top navigation
+- `HeroImg` / `HeroImg2` — featured hero sections
+- `AboutContent` — about section content
+- `WorkCard` / `WorkCardData` — project portfolio cards
+- `PricingCard` — service or pricing display
+- `Footer` — footer section with site details
+- `Form` — contact form UI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📌 Notes
 
-## Learn More
+- The app is built as a client-side React SPA using React Router for navigation.
+- Styling is organized per-component using CSS files alongside components.
+- The project is ready for local development or deployment as a static site.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💡 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo.
+2. Run `npm install`.
+3. Run `npm start`.
+4. Edit components in `src/` and refresh the browser.
 
-### Code Splitting
+## 🤝 Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to improve the design, add new project cards, or connect the form to a backend service.
 
-### Analyzing the Bundle Size
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Use the `Contact` page to capture user messages and leads.
