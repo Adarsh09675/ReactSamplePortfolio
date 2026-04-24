@@ -1,4 +1,4 @@
-# Portfolio1
+# ReactSamplePortfolio
 
 A modern React portfolio website built with Create React App. This project showcases a personal landing page with responsive navigation, project highlights, service pricing, contact form, and visual hero sections.
 
